@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+    --primary-color:#364ba7;
+    --secondary-color:#f583a7;
+}
+body{
+    background-color: #DFDBE5;
+
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.container
+{
+    background-color:plum;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 600px;
+    margin: 10px;
+}
+.fa-quote-left{
+    font-size: 50px;
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+   
+}
+.author{
+    font-size: 20px;
+}
+hr{
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid#364ba788;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.twitter-share-button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.button button {
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:#fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+.button>button:hover{
+  opacity: 0.5;
+} 
+.twitter-share-button:hover {
+   opacity: 0.5;
+}
+button:focus{
+    overflow: none;
+}
